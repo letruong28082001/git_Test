@@ -1,0 +1,28 @@
+/* mobie < 740px */
+@media (max-width: 470px) {
+    .mobie{
+        display: block;
+    }
+
+    #nav li{
+        display: block;
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    #nav > li:first-child {
+        display:inline-block;
+    } 
+
+
+    #nav{
+        display: block;
+    }
+}
+
